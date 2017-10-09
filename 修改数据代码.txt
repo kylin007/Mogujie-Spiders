@@ -1,0 +1,18 @@
+
+  delete from [mogujie].[dbo].[DATE] where GOODSID = '无数据'
+
+  UPDATE [mogujie].[dbo].[DATE] SET INDUSTRY_ID = '内衣配饰' WHERE MONTH = 7
+  
+  UPDATE [mogujie].[dbo].[DATE] SET PRODUCTTYPE_ID = '文胸' WHERE MONTH = 7 and PRODUCTTYPE_ID = '17'
+
+  UPDATE [mogujie].[dbo].[DATE] SET PRODUCTTYPE_ID = '内裤' WHERE MONTH = 7 and PRODUCTTYPE_ID = '75'
+
+  UPDATE [mogujie].[dbo].[DATE] SET PRODUCTTYPE_ID = '袜类' WHERE MONTH = 7 and PRODUCTTYPE_ID = '76'
+
+  UPDATE [mogujie].[dbo].[DATE] SET PRODUCTTYPE_ID = '美体塑身' WHERE MONTH = 7 and PRODUCTTYPE_ID = '77'
+
+  UPDATE [mogujie].[dbo].[DATE] SET PRODUCTTYPE_ID = '家居服' WHERE MONTH = 7 and PRODUCTTYPE_ID = '18'
+
+  UPDATE [mogujie].[dbo].[DATE] SET PRODUCTTYPE_ID = '保暖内衣' WHERE MONTH = 7 and PRODUCTTYPE_ID = '16'
+
+  UPDATE [mogujie].[dbo].[DATE] SET PLATFORM_ID = '蘑菇街' WHERE MONTH = 7
